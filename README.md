@@ -1,11 +1,9 @@
-# FooBaa-otimizado
+# FooBaa
 
-PEDIDO: Escreva um programa que imprime cada número de 1 até 100 em uma nova linha.
+REQUEST: Write a program that prints each number from 1 to 100 on a new line.
 
-Para cada múltiplo de 3, imprima "Foo", ao invés do número.
-Para cada múltiplo de 5, imprima "Baa", ao invés do número.
-Para números múltiplos simultaneamente de 3 e 5, imprima "FooBaa", ao invés do número.
+For every multiple of 3, print "Foo" instead of the number.
+For every multiple of 5, print "Baa" instead of the number.
+For numbers that are multiples of both 3 and 5, print "FooBaa" instead of the number.
 
-A sua solução deverá ser utilizando o menor número de linhas de código possível porém deve produzir um código eficiente.
-
-A melhor solução que eu pensei usa apenas 1 IF, 2 ELSE IF e 1 ELSE. Soluções mais comuns usam 3 IF, 1 ELSE IF e 3 ELSE.
+Your solution should use the fewest lines of code possible but must produce efficient code.

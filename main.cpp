@@ -1,35 +1,35 @@
-/******************************************************************************
+#include <iostream>
+#include <string>
 
-Welcome to GDB Online.
-GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
-C#, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
-Code, Compile, Run and Debug online from anywhere in world.
+using namespace std;
 
-*******************************************************************************/
-#include <stdio.h>
-
-
-int main()
+void FooBaa()
 {
-    for(int i = 1; i <= 100; i++)
+    for(unsigned int i = 1; i <= 100; i++)
     {
-        if(i%3 == 0 && i%5 != 0)
+        string fooBaa = "";
+        if(i % 3 == 0)
         {
-            printf("Foo\n");
+            fooBaa = "Foo";
         }
-        else if(i%3 != 0 && i%5 == 0)
+        if(i % 5 == 0)
         {
-            printf("Baa\n");
+            fooBaa += "Baa";
         }
-        else if(i%3 == 0 && i%5 == 0)
+        if(!fooBaa.empty())
         {
-            printf("FooBaa\n");
+            cout << fooBaa << "\n";
         }
         else
         {
-            printf("%i\n", i);
+            cout << i << "\n";
         }
     }
+}
+
+int main()
+{
+    FooBaa();
 
     return 0;
 }
